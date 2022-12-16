@@ -1,0 +1,143 @@
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Manipulating the DOM</title>
+    <!-- Load Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load Styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="body">
+    <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+      <nav class="navbar__menu">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+      </nav>
+    </header>
+    <main>
+      <header class="main__hero">
+        <div><h1>Technology & Inspiration</h1></div>
+        <div>
+          <li id="dark" class="mode">Change theme</li>
+        </div>
+      </header>
+      <!-- Each Section has an ID (used for the anchor) and 
+         a data attribute that will populate the li node.
+        Adding more sections will automatically populate nav.
+        The first section is set to active class by default -->
+      <section id="section1" data-nav="Section 1" class="your-active-class">
+        <div class="landing__container">
+          <h2>Section 1</h2>
+          <p>
+            Technology is the most useful form of science for the general
+            population. In simple words, technology is when we take the concepts
+            of science and transform them into gadgets and devices that are
+            useful to us as human beings. When we look around us, almost
+            everything is a result of or a form of technology.
+          </p>
+
+          <p>
+            For example, the device you are using right now is a form of
+            technology made for communication, or the refrigerator in your
+            kitchen is a use of science that helps to keep your food fresh and
+            cool. With these examples, we see how dependent we are on technology
+            and how important it is for us in our daily lives.
+          </p>
+        </div>
+      </section>
+      <section id="section2" data-nav="Section 2">
+        <div class="landing__container">
+          <h2>Section 2</h2>
+          <p>
+            It isn’t easy to imagine our lives without using any form of
+            technology. For the smallest of communications, we tend to turn to
+            our mobile phones. Even most of the food we eat is packaged in
+            factories using various technologies. Thus, imagining a life without
+            technology is impossible. It is not only a fact of life but also a
+            necessity for all of us.
+          </p>
+
+          <p>
+            In fact, the smartphone, that is, a mobile phone which can connect
+            to the internet, is becoming one of the fastest-growing and most
+            accessible forms of technology around the world. On a smartphone,
+            you can click photographs, browse the internet, listen to music, and
+            use social media. With the advent of smartphone technology, the
+            practical purpose of not only communicating with your friends is
+            met, but also so many others, as mentioned.Thus, in today’s world,
+            the importance of technology becomes more and more as the years
+            pass. Scientists have done so much to advance humans using
+            technology, and we still have a long way to go.
+          </p>
+        </div>
+      </section>
+      <section id="section3" data-nav="Section 3">
+        <div class="landing__container">
+          <h2>Section 3</h2>
+          <p>
+            Who Inspires You Essay: In our life, there are many people who have
+            inspired us. But who has inspired you the most? These inspiring
+            people could be our parents, grandparents, brothers and sisters,
+            friends, uncles, teachers, etc. But not only the person whom we know
+            personally could inspire us but also the great personalities such as
+            famous Indian people, freedom fighters, political leaders,
+            cricketers, actors, industrialists, writers, etc. can inspire us.
+          </p>
+
+          <p>
+            Inspiration stirs us to additional opportunities by permitting us to
+            rise above our standard encounters and constraints. Inspiration
+            impels an individual from lack of care to probability and changes
+            the manner in which we see our own abilities. inspiration may now
+            and again be neglected in light of its slippery nature. Its set of
+            experiences of being treated as otherworldly or heavenly hasn’t
+            helped the circumstance. Be that as it may, as ongoing exploration
+            shows, inspiration can be initiated, caught, and controlled, and it
+            majorly affects significant life results. inspiration has three
+            principal characteristics: inspiration, amazing quality, and
+            approach inspiration.
+          </p>
+        </div>
+      </section>
+      <section id="section4" data-nav="Section 4">
+        <div class="landing__container">
+          <h2>Section 4</h2>
+          <p>
+            Consistently in our life, we get motivated by something or by
+            various individuals in our day-to-day existence. In spite of being
+            roused by numerous things, we as a whole have someone in our lives
+            that motivates us the most. This decision may contrast from one
+            individual to another. We as a whole are going ahead in our life to
+            get fruitful. It is just the motivation that has an incredible
+            effect on our considerations and assists us with accomplishing our
+            objectives and getting achievement.
+          </p>
+
+          <p>
+            At the point when we notice some great characteristics in others, we
+            need to do likewise in our life. It adjusts our point of view of
+            living. This can possibly happen when we get propelled by
+            individuals or things that make us think positively just as inspire
+            us to accomplish something. We need it most when we are discouraged
+            or miserable by some disappointment or incredible misfortune
+            throughout everyday life. It is the motivation just that makes us
+            solid again to take on the conflict of our life. Motivation is that
+            thought that can change the existence of numerous individuals.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer">
+      <p>&copy Udacity</p>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
